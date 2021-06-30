@@ -1,0 +1,154 @@
+body{
+        box-sizing: border-box;
+        font-family: 'roboto';
+        margin: 0px;
+        padding: 0px;
+    }
+
+main {
+    background-color: #ebebeb;
+}
+.contenedor {
+    background-color: #ebebeb;
+    font-family: roboto;
+    display: flex;
+    flex-direction: column;
+    
+}
+.titulares {
+    color: #666;
+font-size: 24px;
+}
+
+.precios {
+    font-size: 18px;;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.descuentos {
+    font-size: 16px;
+    color: #39b54a;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.descripciones {
+    font-size: 16px;
+    color: #666;
+    padding-left: 0px;
+    
+
+}
+.img-producto {
+    width: 100%;
+    
+}
+.producto {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: white;
+    background-position: center;
+    
+    font-size: 16px;
+}
+.producto i {
+    color: #39b54a;
+    font-size: 2em;
+    padding-top: 0px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+.precios {
+    padding-top: 15px;
+    width: 30%;
+}
+
+.descuentos {
+    padding-top: 15px;
+    width: 70%;
+    margin-bottom: 0px;
+}
+
+
+.caja1 {
+    border-top: solid 1px #ebebeb;
+    width: auto;
+    padding-bottom: 0px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    display:flex;
+    
+    
+}
+.caja2  {
+    margin-left: 15px;
+    padding-bottom: 15px;
+}
+.titulares {
+    margin-top: 0px;
+}
+
+
+
+@media (min-width: 600px ){
+ .columna {
+     display: flex;
+ }   
+ .nav-bar-completa {
+     display: flex;
+     width: 100%;
+ }
+ nav-bar p {
+     width: 33%;
+ }
+ nav-bar img {
+     width: 33%;
+ }
+ .site-bar {
+    display: flex;
+
+}
+
+.login-bar {
+    display: flex;
+    list-style:none;
+}
+.sitios {
+    display: flex;
+    list-style:none;
+    justify-content: space-around;
+    width: 40vw;
+    padding-left: 0px;
+    max-width: 400px;
+}
+.accesos {
+    display: flex;
+    list-style:none;
+    justify-content: space-around;
+    width: 40vw;
+    padding-left: 0px;
+    max-width: 400px;
+}
+.barrra-completa {
+    display: flex;
+    justify-content: space-around;
+}
+}
+
+
+@media (min-width: 800px ){
+    .contenedor {
+        
+        flex-direction: row;
+        
+    } 
+
+}
